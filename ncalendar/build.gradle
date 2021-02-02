@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
 
@@ -23,12 +23,4 @@ dependencies {
 }
 
 
-publish {
-    userOrg = 'necerr'//bintray.com用户名
-    repoName = 'maven'//bintray仓库
-    groupId = 'com.necer.ncalendar'//jcenter上的路径
-    artifactId = 'ncalendar'//项目名称
-    publishVersion = '5.0.1'//版本号
-    desc = 'NCalendar'
-    website = 'https://github.com/yannecer/NCalendar'
-}
+
